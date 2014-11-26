@@ -7,7 +7,7 @@
 //
 
 #import "XZZViewController.h"
-
+#import "XZZDog.h"
 @interface XZZViewController ()
 
 @end
@@ -18,6 +18,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    XZZDog *myDog = [[XZZDog alloc] init];
+    myDog.name = @"Faye";
+    myDog.breed = @"St. Bernard";
+    myDog.age = 1;
+    NSLog(@"My dog is named %@ and its age is %i the breed is %@.", myDog.name, myDog.age, myDog.breed);
+    [myDog bark];
+    [myDog barkANumberOfTimes:10];
 }
 
 - (void)didReceiveMemoryWarning

@@ -22,6 +22,7 @@
 		11E2FEAD1A25C526008DDA73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E2FE8C1A25C526008DDA73 /* UIKit.framework */; };
 		11E2FEB51A25C526008DDA73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11E2FEB31A25C526008DDA73 /* InfoPlist.strings */; };
 		11E2FEB71A25C526008DDA73 /* MensBestFriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2FEB61A25C526008DDA73 /* MensBestFriendTests.m */; };
+		11E2FEC21A25C86D008DDA73 /* XZZDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2FEC11A25C86D008DDA73 /* XZZDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		11E2FEB21A25C526008DDA73 /* MensBestFriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MensBestFriendTests-Info.plist"; sourceTree = "<group>"; };
 		11E2FEB41A25C526008DDA73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		11E2FEB61A25C526008DDA73 /* MensBestFriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MensBestFriendTests.m; sourceTree = "<group>"; };
+		11E2FEC01A25C86D008DDA73 /* XZZDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZDog.h; sourceTree = "<group>"; };
+		11E2FEC11A25C86D008DDA73 /* XZZDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				11E2FE971A25C526008DDA73 /* XZZAppDelegate.h */,
 				11E2FE981A25C526008DDA73 /* XZZAppDelegate.m */,
+				11E2FEC01A25C86D008DDA73 /* XZZDog.h */,
+				11E2FEC11A25C86D008DDA73 /* XZZDog.m */,
 				11E2FE9A1A25C526008DDA73 /* Main_iPhone.storyboard */,
 				11E2FE9D1A25C526008DDA73 /* Main_iPad.storyboard */,
 				11E2FEA01A25C526008DDA73 /* XZZViewController.h */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E2FE951A25C526008DDA73 /* main.m in Sources */,
+				11E2FEC21A25C86D008DDA73 /* XZZDog.m in Sources */,
 				11E2FE991A25C526008DDA73 /* XZZAppDelegate.m in Sources */,
 				11E2FEA21A25C526008DDA73 /* XZZViewController.m in Sources */,
 			);
