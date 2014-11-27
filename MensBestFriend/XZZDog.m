@@ -13,13 +13,45 @@
 -(void)bark;
 {
     NSLog(@"Woof! Woof!");
+    self.name = @"Rodger";
+    self.breed = @"Lab";
 }
 
 -(void)barkANumberOfTimes:(int)numberOfTimes;
 {
     for (int i; i <= numberOfTimes; i++)
     {
-        NSLog(@"Woof! Woof!");
+        [self bark];
     }
+}
+
+-(void)barkANumberOfTimes:(int)numberOfTimes loudly:(BOOL)isLoud;
+{
+    if (!isLoud)
+    {
+        for (int i; i <= numberOfTimes; i++)
+        {
+            NSLog(@"Yip! Yip1");
+        }
+    }
+    else
+    {
+        for (int i; i <= numberOfTimes; i++)
+        {
+            [self bark];
+        }
+    }
+   
+}
+
+-(int)ageInDogYearsFromAge:(int)regularYears
+{
+    int newAge = regularYears * 7;
+    return newAge;
+}
+
+-(void)changeBreedToWerewolf;
+{
+    self.breed = @"Werewolf";
 }
 @end
