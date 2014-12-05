@@ -99,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112300E31A31C42D00F4E658 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11E2FEC01A25C86D008DDA73 /* XZZDog.h */,
+				11E2FEC11A25C86D008DDA73 /* XZZDog.m */,
+				11190EBC1A26FCF700E4720C /* XZZPuppy.h */,
+				11190EBD1A26FCF700E4720C /* XZZPuppy.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		11E2FE7C1A25C526008DDA73 = {
 			isa = PBXGroup;
 			children = (
@@ -138,10 +149,7 @@
 				11E2FE9D1A25C526008DDA73 /* Main_iPad.storyboard */,
 				11E2FEA01A25C526008DDA73 /* XZZViewController.h */,
 				11E2FEA11A25C526008DDA73 /* XZZViewController.m */,
-				11E2FEC01A25C86D008DDA73 /* XZZDog.h */,
-				11E2FEC11A25C86D008DDA73 /* XZZDog.m */,
-				11190EBC1A26FCF700E4720C /* XZZPuppy.h */,
-				11190EBD1A26FCF700E4720C /* XZZPuppy.m */,
+				112300E31A31C42D00F4E658 /* Models */,
 				11E2FEA31A25C526008DDA73 /* Images.xcassets */,
 				11E2FE8F1A25C526008DDA73 /* Supporting Files */,
 			);
